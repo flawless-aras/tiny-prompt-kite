@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiny Prompt Kite</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <h1>Tiny Prompt Kite</h1>
+        <p>A pocket deck of low-pressure writing starts for warmups, notes, and stuck afternoons.</p>
+      </header>
+      <section class="prompt" aria-live="polite">
+        <blockquote id="prompt"></blockquote>
+      </section>
+      <div class="toolbar">
+        <button id="next" type="button">New Prompt</button>
+        <button class="secondary" id="save" type="button">Pin It</button>
+        <button class="secondary" id="clear" type="button">Clear Pins</button>
+      </div>
+      <section class="saved" id="saved" aria-label="Pinned prompts"></section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

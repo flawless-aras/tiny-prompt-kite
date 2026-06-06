@@ -1,0 +1,31 @@
+/* Hallmark tokens: Tiny Prompt Kite */
+:root {
+  --color-paper: oklch(96% 0.02 58);
+  --color-ink: oklch(19% 0.035 70);
+  --color-muted: oklch(46% 0.028 72);
+  --color-line: oklch(80% 0.03 68);
+  --color-panel: oklch(99% 0.012 58);
+  --color-accent: oklch(57% 0.14 218);
+  --color-accent-soft: oklch(89% 0.06 218);
+  --color-mark: oklch(64% 0.16 92);
+  --font-display: "Courier New", Courier, monospace;
+  --font-body: Arial, Helvetica, sans-serif;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(2rem, 8vw, 4.75rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur-med: 360ms;
+  --rule-thin: 1px;
+  --radius-sm: 0.35rem;
+  --radius-md: 0.5rem;
+}
