@@ -16,6 +16,14 @@ const clearButton = document.querySelector("#clear");
 let current = 0;
 let saved = [];
 
+function pickNextPrompt() {
+  let next = current;
+  while (next === current && prompts.length > 1) {
+    next = Math.floor(Math.random() * prompts.length);
+  }
+  current = next;
+}
+
 function renderPrompt() {
   promptEl.textContent = prompts[current];
 }
@@ -30,7 +38,7 @@ function renderSaved() {
 }
 
 nextButton.addEventListener("click", () => {
-  current = (current + 1) % prompts.length;
+  pickNextPrompt();
   renderPrompt();
 });
 
